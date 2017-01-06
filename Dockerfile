@@ -1,4 +1,4 @@
-FROM docker pull cirit/jmeter
+FROM cirit/jmeter
 
 MAINTAINER Nick Maiorsky <nick.maiorsky@shipwire.com>
 
