@@ -1,4 +1,4 @@
-FROM cirit/jmeter
+FROM cirit/jmeter:base
 
 MAINTAINER Nick Maiorsky <nick.maiorsky@shipwire.com>
 
