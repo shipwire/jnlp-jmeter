@@ -5,6 +5,7 @@ MAINTAINER Nick Maiorsky <nick.maiorsky@shipwire.com>
 #
 # Jenkins Slave
 #
+RUN apt-get install -y curl
 
 ENV HOME /home/jenkins
 RUN useradd -c "Jenkins user" -d $HOME -m jenkins
